@@ -1,0 +1,5 @@
+﻿server:
+   port: 8700
+spring:
+   application:
+      name: employee-service

@@ -1,0 +1,5 @@
+﻿server:
+   port: 8500
+spring:
+   application:
+      name: customer-service

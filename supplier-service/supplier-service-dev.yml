@@ -1,0 +1,5 @@
+﻿server:
+   port: 8400
+spring:
+   application:
+      name: supplier-service
