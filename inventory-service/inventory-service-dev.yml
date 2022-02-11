@@ -1,8 +1,6 @@
 ﻿server:
    port: 8300
 spring:
-   application:
-      name: inventory-service
    datasource:
 # 数据源
       url: jdbc:mysql://localhost:3306/aipsi_cws?useSSL=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=10

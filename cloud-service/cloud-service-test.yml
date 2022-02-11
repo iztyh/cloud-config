@@ -1,8 +1,5 @@
 ﻿server:
    port: 8000
-spring:
-   application:
-      name: cloud-service
 tencent:
    region-id: ap-nanjing
    bucket-name: aipsi-cws-1257926378

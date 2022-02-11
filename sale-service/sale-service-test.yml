@@ -1,8 +1,6 @@
 ﻿server:
    port: 8200
 spring:
-   application:
-      name: sale-service
    datasource:
 # 数据源
       url: jdbc:mysql://rm-bp1i9glrf4kptu1ppvo.mysql.rds.aliyuncs.com:3306/aipsi_cws?useSSL=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
