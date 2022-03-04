@@ -1,5 +1,23 @@
 ﻿server:
    port: 8000
+spring:
+   rabbitmq:
+      host: 129.204.75.127
+      port: 5672
+      username: admin
+      password: '{cipher}589803053f2b951bd45b83b28b9a83e5a8c0e1a5900e333bf10171fc29546c8a'
+   cloud:
+      bus:
+         enabled: true
+         refresh:
+            enabled: true
+management:
+   security:
+      enabled: false
+   endpoints:
+      web:
+         exposure:
+            include: '*'
 tencent:
    region-id: ap-nanjing
    bucket-name: aipsi-cws-1257926378
