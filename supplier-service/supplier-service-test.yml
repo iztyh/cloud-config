@@ -34,3 +34,10 @@ management:
       web:
          exposure:
             include: '*'
+feign:
+   client:
+      config:
+         default:
+            connectTimeout: 5000 #连接超时
+            readTimeout: 5000 #读取超时
+            loggerLevel: basic #日志等级
