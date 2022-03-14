@@ -20,7 +20,7 @@ management:
             include: '*'
 tencent:
    region-id: ap-nanjing
-   bucket-name: aipsi-cws-1257926378
+   bucket-name: aipsi-cws-dev-1257926378
    secret-id: '{cipher}e3055b329c073492fac210c9bfb3d4f8d5cd385f6e6208778a2b8c6de52535957cec57b0946d1f43f12460da3e4eb894fef3e4c581ef6698ca6e29c5ded4bc47'
    secret-key: '{cipher}3a34c20e0359abe81703500860deeb5102613d72fcf91e81c2252afa5c368e4734ad589b6ad059ca4d486f3d9df262c13be2fc4175f032f9e6bc04de232cc719'
 baidu:
