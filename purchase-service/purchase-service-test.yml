@@ -1,5 +1,6 @@
 ﻿server:
    port: 8300
+   forward-headers-strategy: framework
 spring:
    rabbitmq:
       host: 129.204.75.127
@@ -41,3 +42,7 @@ feign:
             connectTimeout: 5000 #连接超时
             readTimeout: 5000 #读取超时
             loggerLevel: basic #日志等级
+mybatis:
+   mapper-locations: mapper/*Mapper.xml
+# 实体类
+   type-aliases-package: com.aipsi.cws.purchase.domain.Purchase

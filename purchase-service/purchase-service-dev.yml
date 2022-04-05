@@ -43,5 +43,5 @@ feign:
             loggerLevel: basic #日志等级
 mybatis:
    mapper-locations: mapper/*Mapper.xml
-   # 实体类
+# 实体类
    type-aliases-package: com.aipsi.cws.purchase.domain.Purchase
