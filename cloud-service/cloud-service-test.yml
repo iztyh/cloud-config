@@ -1,6 +1,6 @@
 ﻿server:
    port: 8000
-   forward-headers-strategy: framework
+   use-forward-headers: true
 spring:
    rabbitmq:
       host: 129.204.75.127
