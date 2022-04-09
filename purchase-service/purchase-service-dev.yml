@@ -1,4 +1,4 @@
-server:
+﻿server:
    port: 8300
 spring:
    rabbitmq:
@@ -15,7 +15,7 @@ spring:
 # 数据源
       url: jdbc:mysql://localhost:3306/aipsi_cws?useSSL=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
       username: root
-      password: f01545401
+      password: root123
       type: com.zaxxer.hikari.HikariDataSource
       driver-class-name: com.mysql.cj.jdbc.Driver
 # 连接池
@@ -41,12 +41,7 @@ feign:
             connectTimeout: 5000 #连接超时
             readTimeout: 5000 #读取超时
             loggerLevel: basic #日志等级
-
-# 这里是用来查找mybatis文件所需要的路径
 mybatis:
-  mapper-locations: mapper/*Mapper.xml
-  configuration:
-    map-underscore-to-camel-case: true
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-  # 实体类
-  type-aliases-package: com.aipsi.cws.purchase.domain.Purchase
+   mapper-locations: mapper/*Mapper.xml
+# 实体类
+   type-aliases-package: com.aipsi.cws.purchase.domain.Purchase
