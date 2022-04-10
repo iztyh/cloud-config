@@ -15,7 +15,7 @@ spring:
 # 数据源
       url: jdbc:mysql://localhost:3306/AIPSI_CWS?useSSL=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
       username: root
-      password: Zk123456.
+      password: '{cipher}0bb57210c4597377f91c5149c1d286cdcd98bca1b8e8dc2d7a5ea42dc3c48fe0'
       type: com.zaxxer.hikari.HikariDataSource
       driver-class-name: com.mysql.cj.jdbc.Driver
 # 连接池
