@@ -1,4 +1,4 @@
-﻿server:
+server:
    port: 8400
    forward-headers-strategy: framework
 spring:
@@ -47,5 +47,5 @@ management:
       web:
          exposure:
             include: '*'
-date-format:
+dateFormat:
    dateTime: yyyy-MM-dd
