@@ -1,4 +1,4 @@
-﻿server:
+server:
    port: 8800
    forward-headers-strategy: framework
 spring:
@@ -14,9 +14,9 @@ spring:
             enabled: true
    datasource:
 # 数据源
-      url: jdbc:mysql://rm-bp1i9glrf4kptu1ppvo.mysql.rds.aliyuncs.com:3306/aipsi_cws?useSSL=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
-      username: dbadmin
-      password: '{cipher}eaa78751fc84ad9b1fd1795ce04c5595ba02bd880772100f9416a8d8e870c988'
+      username: root
+      url: jdbc:mysql://localhost:3306/store?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+      password: 123456
       type: com.zaxxer.hikari.HikariDataSource
       driver-class-name: com.mysql.cj.jdbc.Driver
 # 连接池
@@ -35,3 +35,9 @@ management:
       web:
          exposure:
             include: '*'
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://180.101.245.110:8761/
+   instance:
+      prefer-ip-address: true
