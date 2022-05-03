@@ -44,3 +44,9 @@ mybatis-plus:
       logic-delete-field: isDelete
       logic-not-delete-value: 0
       logic-delete-value: 1
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://180.101.245.110:8761/
+   instance:
+      prefer-ip-address: true
