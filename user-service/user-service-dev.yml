@@ -48,3 +48,5 @@ logging:
     com.itcast: debug
   pattern:
     dateformat: yyyy-MM-dd HH:mm:ss
+date-format:
+   dateTime: yyyy-MM-dd
