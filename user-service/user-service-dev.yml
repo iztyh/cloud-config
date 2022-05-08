@@ -43,3 +43,8 @@ mybatis-plus:
          logic-delete-field: isDelete
          logic-not-delete-value: 0
          logic-delete-value: 1
+logging:
+  level:
+    com.itcast: debug
+  pattern:
+    dateformat: yyyy-MM-dd HH:mm:ss
