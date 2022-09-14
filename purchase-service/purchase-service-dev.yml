@@ -13,7 +13,7 @@ spring:
             enabled: true
    datasource:
 # 数据源
-      url: jdbc:mysql://localhost:3306/aipsi_cws?useSSL=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
+      url: jdbc:mysql://localhost:3306/aipsi_cws_test
       username: root
       password: root123
       type: com.zaxxer.hikari.HikariDataSource
