@@ -45,4 +45,4 @@ feign:
 mybatis:
    mapper-locations: mapper/*Mapper.xml
 # 实体类
-   type-aliases-package: com.aipsi.cws.purchase.domain.Purchase
+   type-aliases-package: com.aipsi.cws.purchase.domain.*
