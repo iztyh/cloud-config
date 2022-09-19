@@ -36,7 +36,7 @@ management:
          exposure:
             include: '*'
 mybatis-plus:
-   mapper-locations: classpath:mybatis/*.xml
+   mapper-locations: mapper/*Mapper.xml
    configuration:
       log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
    global-config:
