@@ -44,5 +44,7 @@ feign:
             loggerLevel: basic #日志等级
 mybatis:
    mapper-locations: mapper/*Mapper.xml
+   configuration:
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 # 实体类
    type-aliases-package: com.aipsi.cws.purchase.domain.*

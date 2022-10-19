@@ -34,10 +34,12 @@ management:
       web:
          exposure:
             include: '*'
-logging:
-  level:
-    com.itcast: debug
-  pattern:
-    dateformat: yyyy-MM-dd HH:mm:ss
-date-format:
-   dateTime: yyyy-MM-dd
+mybatis-plus:
+   mapper-locations: mapper/*Mapper.xml
+   configuration:
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+   global-config:
+      db-config:
+         logic-delete-field: isDelete
+         logic-not-delete-value: 0
+         logic-delete-value: 1

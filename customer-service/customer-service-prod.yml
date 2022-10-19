@@ -35,3 +35,11 @@ management:
       web:
          exposure:
             include: '*'
+mybatis-plus:
+   configuration:
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+   level:
+      com.itcast: debug
+   pattern:
+      dateformat: MM-dd HH:mm:ss:SSS
