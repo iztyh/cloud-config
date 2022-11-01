@@ -42,7 +42,7 @@ feign:
             connectTimeout: 5000 #连接超时
             readTimeout: 5000 #读取超时
             loggerLevel: basic #日志等级
-mybatis:
+mybatis-plus:
    mapper-locations: mapper/*Mapper.xml
    configuration:
       log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
