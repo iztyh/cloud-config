@@ -1,11 +1,6 @@
 server:
    port: 8400
 spring:
-   redis:
-      host: 1.15.222.203
-      port: 6379
-      password: '{cipher}85278edb764814a2c3c9a55979c45633da20397953c7e33ec2235d0b63f82d2d'
-      timeout: 10000
    rabbitmq:
       host: 129.204.75.127
       port: 5672
