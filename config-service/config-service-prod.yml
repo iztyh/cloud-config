@@ -1,5 +1,5 @@
 server:
-   port: 6900
+   port: 8900
    forward-headers-strategy: framework
 spring:
    rabbitmq:
