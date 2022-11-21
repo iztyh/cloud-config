@@ -38,8 +38,8 @@ feign:
    client:
       config:
          default:
-            connectTimeout: 5000 #连接超时
-            readTimeout: 5000 #读取超时
+            connectTimeout: 10000 #连接超时
+            readTimeout: 10000 #读取超时
             loggerLevel: basic #日志等级
 mybatis-plus:
    mapper-locations: mapper/*Mapper.xml
