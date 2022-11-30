@@ -2,6 +2,7 @@
   port: 8500
   tomcat:
     max-http-form-post-size: 4MB
+    max-swallow-size: 4MB
 spring:
   rabbitmq:
     host: 129.204.75.127
