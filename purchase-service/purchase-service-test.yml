@@ -2,7 +2,7 @@
   port: 8300
   forward-headers-strategy: framework
   tomcat:
-    max-http-post-size: 7MB
+    max-http-form-post-size: 7MB
 spring:
   rabbitmq:
     host: 129.204.75.127
