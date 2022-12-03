@@ -1,30 +1,32 @@
 ﻿server:
-   port: 8000
+  port: 8000
+  tomcat:
+    max-http-form-post-size: 10MB
 spring:
-   rabbitmq:
-      host: 129.204.75.127
-      port: 5672
-      username: admin
-      password: '{cipher}589803053f2b951bd45b83b28b9a83e5a8c0e1a5900e333bf10171fc29546c8a'
-   cloud:
-      bus:
-         enabled: true
-         refresh:
-            enabled: true
+  rabbitmq:
+    host: 129.204.75.127
+    port: 5672
+    username: admin
+    password: '{cipher}589803053f2b951bd45b83b28b9a83e5a8c0e1a5900e333bf10171fc29546c8a'
+  cloud:
+    bus:
+      enabled: true
+      refresh:
+        enabled: true
 management:
-   security:
-      enabled: false
-   endpoints:
-      web:
-         exposure:
-            include: '*'
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: '*'
 tencent:
-   region-id: ap-nanjing
-   region-id-ocr: ap-shanghai
-   bucket-name: aipsi-cws-dev-1257926378
-   secret-id: '{cipher}e3055b329c073492fac210c9bfb3d4f8d5cd385f6e6208778a2b8c6de52535957cec57b0946d1f43f12460da3e4eb894fef3e4c581ef6698ca6e29c5ded4bc47'
-   secret-key: '{cipher}3a34c20e0359abe81703500860deeb5102613d72fcf91e81c2252afa5c368e4734ad589b6ad059ca4d486f3d9df262c13be2fc4175f032f9e6bc04de232cc719'
+  region-id: ap-nanjing
+  region-id-ocr: ap-shanghai
+  bucket-name: aipsi-cws-dev-1257926378
+  secret-id: '{cipher}e3055b329c073492fac210c9bfb3d4f8d5cd385f6e6208778a2b8c6de52535957cec57b0946d1f43f12460da3e4eb894fef3e4c581ef6698ca6e29c5ded4bc47'
+  secret-key: '{cipher}3a34c20e0359abe81703500860deeb5102613d72fcf91e81c2252afa5c368e4734ad589b6ad059ca4d486f3d9df262c13be2fc4175f032f9e6bc04de232cc719'
 baidu:
-   app-id: 25085113
-   api-key: '{cipher}26bdc3560e74749ab3b9dffde30c37fd66c85e0cb5e1d5820412429e703382d4653734c1d5484042d830ba68bf9f5f98'
-   secret-key: '{cipher}386f6e2a3a6562b77e2a10c242fc982f66f7fc340d6204cbb359d8b32ce1d2bc522c3df5fc8b31924b58768ec1b1668bf80a796b4b8571bbf1e56126c1d3a52a'
+  app-id: 25085113
+  api-key: '{cipher}26bdc3560e74749ab3b9dffde30c37fd66c85e0cb5e1d5820412429e703382d4653734c1d5484042d830ba68bf9f5f98'
+  secret-key: '{cipher}386f6e2a3a6562b77e2a10c242fc982f66f7fc340d6204cbb359d8b32ce1d2bc522c3df5fc8b31924b58768ec1b1668bf80a796b4b8571bbf1e56126c1d3a52a'

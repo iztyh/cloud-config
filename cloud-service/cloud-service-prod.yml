@@ -1,31 +1,33 @@
 ﻿server:
-   port: 8000
-   forward-headers-strategy: framework
+  port: 8000
+  forward-headers-strategy: framework
+  tomcat:
+    max-http-form-post-size: 10MB
 spring:
-   rabbitmq:
-      host: 129.204.75.127
-      port: 5672
-      username: admin
-      password: '{cipher}589803053f2b951bd45b83b28b9a83e5a8c0e1a5900e333bf10171fc29546c8a'
-   cloud:
-      bus:
-         enabled: true
-         refresh:
-            enabled: true
+  rabbitmq:
+    host: 129.204.75.127
+    port: 5672
+    username: admin
+    password: '{cipher}589803053f2b951bd45b83b28b9a83e5a8c0e1a5900e333bf10171fc29546c8a'
+  cloud:
+    bus:
+      enabled: true
+      refresh:
+        enabled: true
 management:
-   security:
-      enabled: false
-   endpoints:
-      web:
-         exposure:
-            include: '*'
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: '*'
 tencent:
-   region-id: ap-nanjing
-   region-id-ocr: ap-shanghai
-   bucket-name: aipsi-cws-1257926378
-   secret-id: '{cipher}e3055b329c073492fac210c9bfb3d4f8d5cd385f6e6208778a2b8c6de52535957cec57b0946d1f43f12460da3e4eb894fef3e4c581ef6698ca6e29c5ded4bc47'
-   secret-key: '{cipher}3a34c20e0359abe81703500860deeb5102613d72fcf91e81c2252afa5c368e4734ad589b6ad059ca4d486f3d9df262c13be2fc4175f032f9e6bc04de232cc719'
+  region-id: ap-nanjing
+  region-id-ocr: ap-shanghai
+  bucket-name: aipsi-cws-1257926378
+  secret-id: '{cipher}e3055b329c073492fac210c9bfb3d4f8d5cd385f6e6208778a2b8c6de52535957cec57b0946d1f43f12460da3e4eb894fef3e4c581ef6698ca6e29c5ded4bc47'
+  secret-key: '{cipher}3a34c20e0359abe81703500860deeb5102613d72fcf91e81c2252afa5c368e4734ad589b6ad059ca4d486f3d9df262c13be2fc4175f032f9e6bc04de232cc719'
 baidu:
-   app-id: 26665548
-   api-key: '{cipher}657cfd5809075142b962ed98f0d7542a83cb4d1f4f81e179cf7822c98c435c6b14ebecef11a59926496e66f00696601f'
-   secret-key: '{cipher}fc1a8d0304c33f4fe983fbe9aa2afe9dd3a5537e291e6731e5e0d1c4f0165c32055d2d3a53ea60a89b2ca50518fab01d1d7c9a71979ffd1aba1c2422da8c41a7'
+  app-id: 26665548
+  api-key: '{cipher}657cfd5809075142b962ed98f0d7542a83cb4d1f4f81e179cf7822c98c435c6b14ebecef11a59926496e66f00696601f'
+  secret-key: '{cipher}fc1a8d0304c33f4fe983fbe9aa2afe9dd3a5537e291e6731e5e0d1c4f0165c32055d2d3a53ea60a89b2ca50518fab01d1d7c9a71979ffd1aba1c2422da8c41a7'
