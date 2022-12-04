@@ -1,6 +1,7 @@
 ﻿server:
   port: 8000
   forward-headers-strategy: framework
+  max-http-request-header-size: 10MB
   tomcat:
     max-http-form-post-size: 10MB
 spring:

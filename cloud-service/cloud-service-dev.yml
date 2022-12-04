@@ -1,5 +1,6 @@
 ﻿server:
   port: 8000
+  max-http-request-header-size: 10MB
   tomcat:
     max-http-form-post-size: 10MB
 spring:
