@@ -1,51 +1,47 @@
 server:
-   port: 8400
+  port: 8400
 spring:
-   rabbitmq:
-      host: 129.204.75.127
-      port: 5672
-      username: admin
-      password: '{cipher}589803053f2b951bd45b83b28b9a83e5a8c0e1a5900e333bf10171fc29546c8a'
-   cloud:
-      bus:
-         enabled: true
-         refresh:
-            enabled: true
-   datasource:
-# 数据源
-      url: jdbc:mysql://localhost:3306/aipsi?useSSL=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
-      username: root
-      password: 1234
-      type: com.zaxxer.hikari.HikariDataSource
-      driver-class-name: com.mysql.cj.jdbc.Driver
-# 连接池
-      hikari:
-         connection-timeout: 20000
-         idle-timeout: 20000
-         maximum-pool-size: 20
-         minimum-idle: 5
-         max-lifetime: 30000
-         auto-commit: true
-         pool-name: AipsiCwsHikari
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    bus:
+      enabled: true
+      refresh:
+        enabled: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/aipsi?useSSL=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
+    username: root
+    password: 1234
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      connection-timeout: 20000
+      idle-timeout: 20000
+      maximum-pool-size: 20
+      minimum-idle: 5
+      max-lifetime: 30000
+      auto-commit: true
+      pool-name: AipsiCwsHikari
 management:
-   security:
-      enabled: false
-   endpoints:
-      web:
-         exposure:
-            include: '*'
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: '*'
 mybatis-plus:
-   configuration:
-      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 logging:
-   level:
-      com.itcast: debug
-   pattern:
-      dateformat: MM-dd HH:mm:ss:SSS
+  level:
+    com.itcast: debug
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
 date-format:
-   dateTime: yyyy-MM-dd
-
-
+  dateTime: yyyy-MM-dd
 wechat:
-   appid: '{cipher}465a7e180de20ac60f68840aa4181bdde176a674a4644dea0df72cfa0e3ae8ebb651c514874bba7fb82c41cd9b57f9bd'
-   secret: '{cipher}ca0153b1844a1fac8803311a9fde3b07d45829db64fe80a567558b6cdd2198144a9a0d62a3bb2154333329585b733642aff8acf96e79e44cee5865b5562e233e'
+  appid: '{cipher}465a7e180de20ac60f68840aa4181bdde176a674a4644dea0df72cfa0e3ae8ebb651c514874bba7fb82c41cd9b57f9bd'
+  secret: '{cipher}ca0153b1844a1fac8803311a9fde3b07d45829db64fe80a567558b6cdd2198144a9a0d62a3bb2154333329585b733642aff8acf96e79e44cee5865b5562e233e'
