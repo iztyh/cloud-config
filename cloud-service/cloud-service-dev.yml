@@ -37,7 +37,9 @@ yidun:
   business-id: '{cipher}0e77d5b5c7641dc76c6c9e8048f14c4679d0f5858b23198f0c7dfae46a8cd06032db99934bb51b4d5ef8a2f9ac9f50e7b82115cc60b7d096dba1c16090c0c51b'
 aliyun:
   region: cn-hangzhou
-  sign-name: 阿里云短信测试
-  template-code: SMS_154950909
   access-key-id: '{cipher}24a5a412a3e1912d433cf2e15e8449683306256ee0543c4a85d66f6d8d277abbf78ae0a147f20d111178a516aa400b49'
   access-key-secret: '{cipher}b677691bfcd94fa2e62edf214db1bb387d8953dd63d15a4b7eb1b08969e48e7c1b64f1e6f56dee770c7ab3930ebc990a'
+  sign-name: 服批宝
+  template-code-login: SMS_464040540
+  template-code-register: SMS_464120468
+  
