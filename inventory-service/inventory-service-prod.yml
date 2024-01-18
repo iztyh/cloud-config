@@ -45,3 +45,4 @@ feign:
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+out-of-stock-reminder: 0 0 6-18/6 * * ?
