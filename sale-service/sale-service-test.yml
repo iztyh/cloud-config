@@ -36,13 +36,4 @@ management:
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-logging:
-  level:
-    com.itcast: debug
-  pattern:
-    dateformat: MM-dd HH:mm:ss:SSS
-date-format:
-  dateTime: yyyy-MM-dd
-wechat:
-  appid: '{cipher}465a7e180de20ac60f68840aa4181bdde176a674a4644dea0df72cfa0e3ae8ebb651c514874bba7fb82c41cd9b57f9bd'
-  secret: '{cipher}ca0153b1844a1fac8803311a9fde3b07d45829db64fe80a567558b6cdd2198144a9a0d62a3bb2154333329585b733642aff8acf96e79e44cee5865b5562e233e'
+sales-performance-rank-reminder: 0 0 8-20/6 * * ?
