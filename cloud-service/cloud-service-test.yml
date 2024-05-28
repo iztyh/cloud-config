@@ -42,5 +42,5 @@ aliyun:
   access-key-secret: '{cipher}b677691bfcd94fa2e62edf214db1bb387d8953dd63d15a4b7eb1b08969e48e7c1b64f1e6f56dee770c7ab3930ebc990a'
   sign-name: 服批宝
   template-code-verify: SMS_466990046
-  template-code-login: SMS_467155035
-  template-code-register: SMS_467220027
+  template-code-login: SMS_467410189
+  template-code-register: SMS_467375202
