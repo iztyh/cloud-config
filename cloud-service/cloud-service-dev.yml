@@ -43,3 +43,4 @@ aliyun:
   template-code-verify: SMS_466990046
   template-code-login: SMS_467410189
   template-code-register: SMS_467375202
+  template-code-deal: SMS_467475207
