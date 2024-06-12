@@ -15,6 +15,20 @@ spring:
       enabled: true
       refresh:
         enabled: true
+  mail:
+    host: smtp-mail.outlook.com
+    port: 587
+    username: multicloudage@outlook.com
+    password: '{cipher}efa37e132ec34cf803659a6f4e9de70677e85b239a0d08af6af7070f7bb2abba'
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 10000
+          timeout: 10000
+          writetimeout: 10000
 management:
   security:
     enabled: false
