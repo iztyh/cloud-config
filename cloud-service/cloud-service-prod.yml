@@ -19,7 +19,7 @@ spring:
     host: smtp-mail.outlook.com
     port: 587
     username: multicloudage@outlook.com
-    password: '{cipher}efa37e132ec34cf803659a6f4e9de70677e85b239a0d08af6af7070f7bb2abba'
+    password: '{cipher}02949a8234ba673264b01251c0c7adf0259a48becc1e76c77e92e833478efb4abdc642310d8f5e6b50e40a8fc1ad463b'
     properties:
       mail:
         smtp:
