@@ -36,6 +36,9 @@ management:
     web:
       exposure:
         include: '*'
+  health:
+    mail:
+      enabled: false
 tencent:
   region-id: ap-nanjing
   region-id-ocr: ap-shanghai
