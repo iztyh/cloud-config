@@ -16,7 +16,7 @@ spring:
         enabled: true
   mail:
     host: smtp.qq.com
-    port: 587
+    port: 465
     username: multi.cloud@qq.com
     password: '{cipher}5e5e84146e49603bded74b1b032298bdd3746707f20af702eb845d7f8bf6cc6925fc2c88a00577bca127b26dbee91cbb'
     properties:
