@@ -15,10 +15,10 @@ spring:
       refresh:
         enabled: true
   mail:
-    host: smtp-mail.outlook.com
+    host: smtp.qq.com
     port: 587
-    username: multicloudage@outlook.com
-    password: '{cipher}02949a8234ba673264b01251c0c7adf0259a48becc1e76c77e92e833478efb4abdc642310d8f5e6b50e40a8fc1ad463b'
+    username: multi.cloud@qq.com
+    password: '{cipher}5e5e84146e49603bded74b1b032298bdd3746707f20af702eb845d7f8bf6cc6925fc2c88a00577bca127b26dbee91cbb'
     properties:
       mail:
         smtp:
