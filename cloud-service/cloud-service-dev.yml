@@ -19,15 +19,23 @@ spring:
     port: 465
     username: multi.cloud@qq.com
     password: '{cipher}5e5e84146e49603bded74b1b032298bdd3746707f20af702eb845d7f8bf6cc6925fc2c88a00577bca127b26dbee91cbb'
+    protocol: smtp
+    default-encoding: utf-8
     properties:
       mail:
         smtp:
           auth: true
           starttls:
             enable: true
-          connectiontimeout: 10000
-          timeout: 10000
-          writetimeout: 10000
+            required: true
+          ssl:
+            enable: true
+          socketFactory:
+            port: 465
+            class: javax.net.ssl.SSLSocketFactory
+          connectiontimeout: 30000
+          timeout: 30000
+          writetimeout: 30000
 management:
   security:
     enabled: false
