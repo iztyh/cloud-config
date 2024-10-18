@@ -64,6 +64,7 @@ yidun:
   mnv-business-id: '{cipher}6418f4a610151c0785405070f300c60e957a27bdaf5d5f63439f7a0eca2018696af3a2270e89860bd91c1e18eead5f558a9a92f35a8d9970b36a2b4be66d247c'
 aliyun:
   region: cn-hangzhou
+  balian-api-key: '{cipher}c35f06d8b5a688bd214c8c6a0d0c8105e7ab38a7239012174d48a35836b2aa217788eda4e276cf350e7b1061d9a5b710a5dd7c219a8da17eec3fb4d9b2d617da'
   access-key-id: '{cipher}24a5a412a3e1912d433cf2e15e8449683306256ee0543c4a85d66f6d8d277abbf78ae0a147f20d111178a516aa400b49'
   access-key-secret: '{cipher}b677691bfcd94fa2e62edf214db1bb387d8953dd63d15a4b7eb1b08969e48e7c1b64f1e6f56dee770c7ab3930ebc990a'
   sign-name: 服批宝
