@@ -1,21 +1,20 @@
 server:
-  port: 7200
-  forward-headers-strategy: framework
+  port: 7300
 spring:
   rabbitmq:
-    host: 10.0.0.13
+    host: localhost
     port: 5672
-    username: admin
-    password: '{cipher}589803053f2b951bd45b83b28b9a83e5a8c0e1a5900e333bf10171fc29546c8a'
+    username: guest
+    password: guest
   cloud:
     bus:
       enabled: true
       refresh:
         enabled: true
   datasource:
-    url: jdbc:mysql://10.0.0.8:3306/llmkt?useSSL=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
+    url: jdbc:mysql://localhost:3306/llmkt_dev?useSSL=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
     username: root
-    password: '{cipher}8d79ae6c1b062ded93b77c6112426d3ac61cd4b03e40b8b0cd31356101d66b7f'
+    password: 1234
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
