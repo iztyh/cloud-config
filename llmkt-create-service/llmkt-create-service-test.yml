@@ -42,3 +42,4 @@ mybatis-plus:
       logic-delete-field: isDelete
       logic-not-delete-value: 0
       logic-delete-value: 1
+bucket-name: llmkt-test-1257926378
