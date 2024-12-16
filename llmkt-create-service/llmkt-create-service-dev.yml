@@ -13,6 +13,13 @@ spring:
       enabled: true
       refresh:
         enabled: true
+    openfeign:
+      client:
+        config:
+          default:
+            connectTimeout: 30000
+            readTimeout: 30000
+            loggerLevel: basic
   datasource:
     url: jdbc:mysql://localhost:3306/llmkt_dev?useSSL=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
     username: root
@@ -34,13 +41,6 @@ management:
     web:
       exposure:
         include: '*'
-feign:
-  client:
-    config:
-      default:
-        connectTimeout: 20000
-        readTimeout: 20000
-        loggerLevel: basic
 mybatis-plus:
   mapper-locations: mapper/*Mapper.xml
   configuration:
