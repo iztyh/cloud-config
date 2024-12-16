@@ -50,6 +50,7 @@ tencent:
   region-id: ap-nanjing
   region-id-ocr: ap-shanghai
   bucket-name: aipsi-cws-dev-1257926378
+  bucket-name-llmkt: llmkt-dev-1257926378
   secret-id: '{cipher}52457cc5b2090db09ac1250938ceaa28406b2caa3b3e740cf542c53789d844d29f86de77d2d2ca372b37c69fe401f577cbd54078fc9f6dfc46f7b13e50022358'
   secret-key: '{cipher}3fa4c6a7f8afb6438300bcff1935bbb963b53ce37e8328eef007fb83f79a05b21498bde773e086c2f4174abe9d97a2addc700e0055750dfe08b1c845944a0ff3'
 baidu:
