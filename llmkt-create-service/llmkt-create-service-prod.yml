@@ -35,6 +35,13 @@ management:
     web:
       exposure:
         include: '*'
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 20000
+        readTimeout: 20000
+        loggerLevel: basic
 mybatis-plus:
   mapper-locations: mapper/*Mapper.xml
   configuration:
