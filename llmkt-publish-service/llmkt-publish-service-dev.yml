@@ -41,6 +41,10 @@ mybatis-plus:
       logic-delete-field: isDelete
       logic-not-delete-value: 0
       logic-delete-value: 1
+logging:
+  level:
+    org.springframework.web: DEBUG
+    com.llmkt.publish: DEBUG
 wechat:
   open:
     componentAppId: ""
