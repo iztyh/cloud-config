@@ -17,8 +17,8 @@ spring:
       client:
         config:
           default:
-            connectTimeout: 30000
-            readTimeout: 30000
+            connectTimeout: 60000
+            readTimeout: 60000
             loggerLevel: basic
   datasource:
     url: jdbc:mysql://localhost:3306/llmkt_dev?useSSL=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
