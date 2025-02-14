@@ -43,12 +43,6 @@ management:
       exposure:
         include: '*'
 mybatis-plus:
-  mapper-locations: mapper/*Mapper.xml
   configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-  global-config:
-    db-config:
-      logic-delete-field: isDelete
-      logic-not-delete-value: 0
-      logic-delete-value: 1
+    log-impl: org.apache.ibatis.logging.nologging.NoLoggingImpl
 bucket-name: llmkt-1257926378
