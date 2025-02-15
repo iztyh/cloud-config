@@ -34,14 +34,8 @@ management:
       exposure:
         include: '*'
 mybatis-plus:
-  mapper-locations: mapper/*Mapper.xml
   configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-  global-config:
-    db-config:
-      logic-delete-field: isDelete
-      logic-not-delete-value: 0
-      logic-delete-value: 1
+    log-impl: org.apache.ibatis.logging.nologging.NoLoggingImpl
 wechat:
   open:
     componentAppId: "{cipher}036df6d958cc0b546c3ab8ffb9527e6d54af029964a8338720aaef756b91a73c3c9b7c77733ef03e0d19f75eac0cc16c"
