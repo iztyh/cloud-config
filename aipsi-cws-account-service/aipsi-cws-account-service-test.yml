@@ -44,7 +44,7 @@ feign:
         loggerLevel: basic
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.aipsi.cws.account.pojo.domain
+  type-aliases-package: com.aipsi.cws.account.entity
   configuration:
     map-underscore-to-camel-case: true
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
